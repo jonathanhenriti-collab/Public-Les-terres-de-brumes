@@ -1,8 +1,23 @@
-# Les Terres de Brume - version de test
+# Les Terres de Brume
 
-Ce dossier contient uniquement la version publique generee du jeu.
+Version publique de test d'un jeu d'aventure, de survie et de construction en 2D.
 
-Publiez son contenu a la racine du depot GitHub public, puis activez GitHub Pages.
-Ne modifiez pas `bundle.js` a la main : regenerez-le depuis le depot source avec
-`npm run build:public`.
-"# Public-Les-terres-de-brumes" 
+## Jouer
+
+[Lancer Les Terres de Brume](https://jonathanhenriti-collab.github.io/Public-Les-terres-de-brumes/)
+
+Le jeu se lance directement dans un navigateur sur ordinateur.
+
+## Commandes principales
+
+- `ZQSD`, `WASD` ou fleches : se deplacer
+- `Espace` : attaquer
+- `B` : ouvrir le mode construction
+- `E` : recolter, placer ou interagir
+- `F` : manger une baie
+- `U` : ameliorer
+- `X` : detruire une construction
+- `R` : reparer
+- `P` : mettre en pause
+
+Cette version est destinee aux essais et peut encore evoluer.

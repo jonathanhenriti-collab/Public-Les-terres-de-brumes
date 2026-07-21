@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111b22">
+  <title>Les Terres de Brume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-shell">
+    <header class="game-header">
+      <div>
+        <p class="eyebrow">VERSION DE TEST · AVENTURE PIXEL</p>
+        <h1>Les Terres de Brume</h1>
+      </div>
+      <div class="status-light"><span></span> Version test</div>
+    </header>
+
+    <section class="screen-frame" aria-label="Jeu Les Terres de Brume">
+      <canvas id="game" width="1920" height="1080" tabindex="0">
+        Votre navigateur ne prend pas en charge Canvas.
+      </canvas>
+      <div class="scanlines" aria-hidden="true"></div>
+    </section>
+
+    <footer class="quick-help">
+      <span><kbd>ZQSD</kbd> / <kbd>WASD</kbd> / <kbd>↑↓←→</kbd> Bouger</span>
+      <span><kbd>ESPACE</kbd> Attaquer</span>
+      <span><kbd>B</kbd> Construire</span>
+      <span><kbd>E</kbd> Récolter / Placer / Portail</span>
+      <span><kbd>F</kbd> Manger</span>
+      <span><kbd>U</kbd> Améliorer</span>
+      <span><kbd>X</kbd> Détruire</span>
+      <span><kbd>R</kbd> Réparer</span>
+      <span><kbd>P</kbd> Pause</span>
+    </footer>
+  </main>
+  <script src="bundle.js"></script>
+</body>
+</html>
