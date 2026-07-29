@@ -1,23 +1,11 @@
-# Les Terres de Brume
+# Les Terres de Brume - version de test
 
-Version publique de test d'un jeu d'aventure, de survie et de construction en 2D.
+Ce depot contient uniquement la distribution publique generee du jeu.
 
-## Jouer
+Les images et sprites d'execution sont integres dans `Img.brume`, proteges par encodage
+et destines exclusivement au fonctionnement du jeu. Leur extraction ou redistribution
+n'est pas autorisee. Les ressources graphiques CraftPix demeurent soumises a leur propre
+licence et ne sont pas couvertes par une eventuelle licence du code du jeu.
 
-[Lancer Les Terres de Brume](https://jonathanhenriti-collab.github.io/Public-Les-terres-de-brumes/)
-
-Le jeu se lance directement dans un navigateur sur ordinateur.
-
-## Commandes principales
-
-- `ZQSD`, `WASD` ou fleches : se deplacer
-- `Espace` : attaquer
-- `B` : ouvrir le mode construction
-- `E` : recolter, placer ou interagir
-- `F` : manger une baie
-- `U` : ameliorer
-- `X` : detruire une construction
-- `R` : reparer
-- `P` : mettre en pause
-
-Cette version est destinee aux essais et peut encore evoluer.
+Ne modifiez pas `bundle.js` ou `Img.brume` a la main : regenerez la distribution depuis
+le depot source prive.

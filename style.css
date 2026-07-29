@@ -36,6 +36,25 @@ body {
   margin-bottom: 12px;
 }
 
+.header-meta {
+  display: grid;
+  justify-items: end;
+  gap: 8px;
+}
+
+.craftpix-credit {
+  color: var(--accent);
+  font-size: 11px;
+  letter-spacing: .06em;
+  text-decoration: none;
+}
+
+.craftpix-credit:hover,
+.craftpix-credit:focus-visible {
+  color: var(--ink);
+  text-decoration: underline;
+}
+
 .eyebrow {
   margin: 0 0 4px;
   color: var(--accent);
@@ -133,6 +152,7 @@ kbd {
 @media (max-width: 650px) {
   body { padding: 10px; }
   .game-header { align-items: center; }
+  .craftpix-credit { font-size: 9px; }
   .status-light { display: none; }
   .quick-help { font-size: 10px; gap: 8px 12px; }
 }
